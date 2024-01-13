@@ -1,7 +1,7 @@
 # homeassistant-atHome
 check at home status with arp ping and mqtt in homeassistant. principle are follows:
 
-![principle](principle.png)
+![principle](/principle.png)
 
 you should create a crontab with linux service. 
 ```crontab
@@ -28,4 +28,4 @@ haStateTopic = 'home/%s/state' % 'leaveCheck1'
 haSetTopic = 'home/%s/set' % 'leaveCheck1'
 ```
 it works perfect.
-![work](work.png)
+![work](/work.png)
